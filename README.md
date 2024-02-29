@@ -1,8 +1,8 @@
-#  Gallifrey
+# ![gallifrey_small](https://github.com/thunderpoot/gallifrey/assets/54200401/19631f67-84fb-46cf-aa49-95973e104033) Gallifrey
 
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
-A simple tool for signing/verifying arbitrary data with ED25519 keys, written in Go. Takes data from STDIN. Generates new private/public keys `private_key.pem` and `public_key.pem` if they don't already exist in the working directory.
+A simple tool for signing/verifying arbitrary data with ED25519 keys, written in Go. Takes data from `STDIN`. Generates new private/public keys `private_key.pem` and `public_key.pem` if they don't already exist in the working directory.
 
 ### Installation
 1. Clone this repository
