@@ -14,14 +14,14 @@ $ go build gallifrey.go
 
 ### Usage
 ```
-$ gallifrey <mode> [arguments]
+$ ./gallifrey <mode> [arguments]
 Modes:
         sign
         verify <publicKey> <signature>
 ```
 
 ```
-$ echo "foo bar" | gallifrey sign
+$ echo "foo bar" | ./gallifrey sign
 Signature: w/eZA0DlOUn6mUgYvY7To6aNNGg+v7C9PnfWtlCiooT1yeKaCrK5jiDG3Au6y7q/s2rowRlJ8mU+Ad3ALr/2Bw==
 Public Key: wAooJAYrCTI01ZL0LnOmL2ZZE9xHEuvgmL5GT5Kmjuc=
 ```
