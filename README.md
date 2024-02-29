@@ -30,6 +30,6 @@ Public Key: wAooJAYrCTI01ZL0LnOmL2ZZE9xHEuvgmL5GT5Kmjuc=
 
 ```
 $ echo "foo bar" > foo.txt
-$ $ ./gallifrey verify $key $sig < foo.txt
+$ ./gallifrey verify $key $sig < foo.txt
 ### SIGNATURE OK ###
 ```
